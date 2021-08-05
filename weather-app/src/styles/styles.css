@@ -1,0 +1,106 @@
+.main{
+    width: 550px;
+    background-color: dodgerblue;
+}
+
+.main-forecast{
+    width: 550px;
+    background-color: dodgerblue;
+}
+
+.top{
+    height: 60px;
+    background-color: #424242;
+    color: white;
+    padding: 10px;
+    font-family: 'Recursive', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header{
+    background-color: #424242;
+    color: white;
+    padding: 5px;
+    border-radius: 15px;
+    font-family: 'Recursive', sans-serif;
+}
+
+.city{
+    padding: 10px;
+    color: black;
+    font-family: 'Recursive', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.forecast-city{
+    text-align: left;
+    padding: 25px;
+    color: black;
+    font-family: 'Recursive', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.day{
+    padding: 5px;
+    color: white;
+    font-family: 'Recursive', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.forecast-day{
+    margin-left: 15px;
+    color: black;
+    font-family: 'Recursive', sans-serif;
+    font-size: 18px;
+}
+
+.temp{
+    text-align: left;
+    padding-top: 15px;
+    padding-left: 15px;
+    color: black;
+    font-family: 'Recursive', sans-serif;
+    font-size: 18px;
+}
+
+.forecast-temp{
+    margin-right: 50px;
+    color: black;
+    font-family: 'Recursive', sans-serif;
+    font-size: 18px;
+}
+
+.forecast-day-temp{
+    padding: 5px;
+    font-family: 'Recursive', sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button{
+    width: 35px;
+    height: 35px;
+}
+
+.weather-body{
+    align-items: flex-start;
+    padding: 10px;
+}
+
+.forecast-body{
+    align-items: flex-start;
+}
+
+.weather-item {
+    align-items: flex-end;
+}
+
+.weather-icon{
+    width: 40px;
+    height: 40px;
+}
